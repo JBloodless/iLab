@@ -3,8 +3,8 @@
 int main ()
 {
     float a, b;
-    char oper;
-    scanf ("%f %c %f", &a, &oper, &b); //read the expression
+    char oper, eq;
+    scanf ("%f %c %f %c", &a, &oper, &b, &eq); //read the expression
 
 	if (b == 0)
 	printf ("error\n");           //pointless actions
